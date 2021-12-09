@@ -1,0 +1,18 @@
+Requires:
+    - PHP 7.4.21
+    - MySql 5.7.34
+    - Apache/2.4.46 (Unix)
+
+
+Getting Started:
+   - Copy the repository to root folder of yours server.
+   - Unzip .htaccess file from .zip archive to root of yours project folder.	
+   - Create database.
+   - Fill the configDb.php file (at "/config" folder).
+   - Run the file migrate_db.php (at "/application/etc/migrations/" folder).
+   - Add softDeletion.php and backup_db.php to cron list (at "/application/etc/cron/" folder)
+   
+
+Admin page:
+   - Login: admin
+   - Password: admin

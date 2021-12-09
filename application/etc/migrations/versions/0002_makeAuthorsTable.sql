@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS authors (
+    id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    author VARCHAR(255) NOT NULL UNIQUE
+);
+
+INSERT INTO authors (author) SELECT author FROM books WHERE isDeleted = 0;

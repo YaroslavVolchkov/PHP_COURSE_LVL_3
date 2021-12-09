@@ -1,0 +1,1 @@
+<h4 class="text-center" style="margin-top: 200px; color: darkgreen;">По вашему запросу "<span style="color: lightseagreen"><?php echo $_POST['textSearch']?></span>" ничего не найдено...</h4>
